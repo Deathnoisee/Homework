@@ -10,6 +10,7 @@ public class CollisionTrigger : MonoBehaviour
         {
             Debug.Log("Player collided! Changing the map...");
             mapObject.SetActive(!mapObject.activeSelf); // Toggle visibility
+            gameObject.SetActive(false);
         }
     }
 }
