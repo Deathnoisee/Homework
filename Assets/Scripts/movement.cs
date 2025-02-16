@@ -56,6 +56,9 @@ public class movement : MonoBehaviour
                 isGrounded = false;
             }
         }
-    }
+   
+
+}
+
 
 
