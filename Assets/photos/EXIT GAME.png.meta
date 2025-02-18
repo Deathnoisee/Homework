@@ -1,34 +1,31 @@
 fileFormatVersion: 2
-guid: 3c691f48fe5edb04b9d3cfd310581c69
+guid: ae094f552c398ce4b917524f1f34e1c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2986818500251847579
-    second: Main menu_0
+      213: 640680095196099120
+    second: EXIT GAME_0
   - first:
-      213: -9197904816170755652
-    second: Main menu_1
+      213: 7096139537651330834
+    second: EXIT GAME_1
   - first:
-      213: -3160397305440190666
-    second: Main menu_2
+      213: -1934522173627059600
+    second: EXIT GAME_2
   - first:
-      213: 8784170157948912044
-    second: Main menu_3
+      213: 6153538782207833728
+    second: EXIT GAME_3
   - first:
-      213: 1240549741992187090
-    second: Main menu_4
+      213: 5507117436255468948
+    second: EXIT GAME_4
   - first:
-      213: 1014865199700067234
-    second: Main menu_5
+      213: 5056396150737600485
+    second: EXIT GAME_5
   - first:
-      213: 70443667517274788
-    second: Main menu_6
+      213: -748166830131086433
+    second: EXIT GAME_6
   - first:
-      213: 3044381829285227804
-    second: Main menu_7
-  - first:
-      213: -8850590305601807167
-    second: Main menu_8
+      213: 8560875335952629360
+    second: EXIT GAME_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main menu_0
+      name: EXIT GAME_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
-        height: 87
+        width: 54
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5647ceb1660bc86d0800000000000000
-      internalID: -2986818500251847579
+      spriteID: 032b3d0f62724e800800000000000000
+      internalID: 640680095196099120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_1
+      name: EXIT GAME_1
       rect:
         serializedVersion: 2
-        x: 79
+        x: 55
         y: 0
-        width: 65
-        height: 72
+        width: 63
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +158,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb999426d4a7a5080800000000000000
-      internalID: -9197904816170755652
+      spriteID: 21fef42005d8a7260800000000000000
+      internalID: 7096139537651330834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_2
+      name: EXIT GAME_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 23
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072b7d625523725e0800000000000000
+      internalID: -1934522173627059600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXIT GAME_3
       rect:
         serializedVersion: 2
         x: 143
-        y: 63
-        width: 25
-        height: 24
+        y: 0
+        width: 55
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63fb22c25630424d0800000000000000
-      internalID: -3160397305440190666
+      spriteID: 08676196be2c56550800000000000000
+      internalID: 6153538782207833728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_3
+      name: EXIT GAME_4
       rect:
         serializedVersion: 2
-        x: 143
+        x: 232
         y: 0
-        width: 25
-        height: 64
+        width: 63
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca1c127d734a7e970800000000000000
-      internalID: 8784170157948912044
+      spriteID: 49dfd5c51263d6c40800000000000000
+      internalID: 5507117436255468948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_4
+      name: EXIT GAME_5
       rect:
         serializedVersion: 2
-        x: 167
+        x: 296
         y: 0
-        width: 66
-        height: 72
+        width: 63
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d495a9ea61573110800000000000000
-      internalID: 1240549741992187090
+      spriteID: 5effd58528deb2640800000000000000
+      internalID: 5056396150737600485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_5
+      name: EXIT GAME_6
       rect:
         serializedVersion: 2
-        x: 264
+        x: 360
         y: 0
-        width: 89
-        height: 72
+        width: 79
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a3470ba586851e00800000000000000
-      internalID: 1014865199700067234
+      spriteID: f9b7e416b3afd95f0800000000000000
+      internalID: -748166830131086433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main menu_6
+      name: EXIT GAME_7
       rect:
         serializedVersion: 2
-        x: 352
+        x: 441
         y: 0
-        width: 65
-        height: 72
+        width: 54
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,52 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4aafa0374244af000800000000000000
-      internalID: 70443667517274788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu_7
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 66
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1d2337d421df3a20800000000000000
-      internalID: 3044381829285227804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main menu_8
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 0
-        width: 64
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cc961e62036c2580800000000000000
-      internalID: -8850590305601807167
+      spriteID: 07efbd5b2c65ec670800000000000000
+      internalID: 8560875335952629360
       vertices: []
       indices: 
       edges: []
@@ -335,15 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Main menu_0: -2986818500251847579
-      Main menu_1: -9197904816170755652
-      Main menu_2: -3160397305440190666
-      Main menu_3: 8784170157948912044
-      Main menu_4: 1240549741992187090
-      Main menu_5: 1014865199700067234
-      Main menu_6: 70443667517274788
-      Main menu_7: 3044381829285227804
-      Main menu_8: -8850590305601807167
+      EXIT GAME_0: 640680095196099120
+      EXIT GAME_1: 7096139537651330834
+      EXIT GAME_2: -1934522173627059600
+      EXIT GAME_3: 6153538782207833728
+      EXIT GAME_4: 5507117436255468948
+      EXIT GAME_5: 5056396150737600485
+      EXIT GAME_6: -748166830131086433
+      EXIT GAME_7: 8560875335952629360
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

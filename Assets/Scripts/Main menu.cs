@@ -10,7 +10,10 @@ public class startgame : MonoBehaviour
         SceneManager.LoadScene("level 1");
     }
     
-    
+    public void MainMenu ()
+    {
+        SceneManager.LoadScene("Main menu");
+    }
     
     
     
