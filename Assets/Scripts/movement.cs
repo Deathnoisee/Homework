@@ -3,7 +3,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class movement : MonoBehaviour
+public class movement : MonoBehaviour, IDataPersistence
 {
     public Rigidbody2D circle;
     public float movementspeed;
@@ -21,8 +21,6 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
 
         Vector2 moveDirection = Vector2.zero;
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.LeftArrow))
@@ -57,6 +55,16 @@ public class movement : MonoBehaviour
             }
         }
    
+    public void LoadData(GameData data)
+    {
+        Debug.Log("LoadData called with position: " + data.playerPosition);
+        this.transform.position = data.playerPosition;
+    }
+    public void SaveData(ref GameData data)
+    {
+        Debug.Log("SaveData called with position: " + this.transform.position);
+        data.playerPosition = this.transform.position;
+    }
 
 }
 

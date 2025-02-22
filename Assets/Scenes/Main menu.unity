@@ -425,7 +425,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565722547}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 519420033}
+        m_TargetAssemblyTypeName: startgame, Assembly-CSharp
+        m_MethodName: ContinueGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &565722547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +476,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565722544}
   m_CullTransparentMesh: 1
+--- !u!1001 &873045787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3092306073855378658, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_Name
+      value: Managers
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2724497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.7553964
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.035554346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570887894988819282, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb1efce3c22428e48ae7c8c1df2b06d5, type: 3}
 --- !u!1 &1040461730
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +617,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519420033}
         m_TargetAssemblyTypeName: startgame, Assembly-CSharp
-        m_MethodName: Startgame
+        m_MethodName: StartThegame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -898,3 +967,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1222144957}
   - {fileID: 1848921612}
+  - {fileID: 873045787}

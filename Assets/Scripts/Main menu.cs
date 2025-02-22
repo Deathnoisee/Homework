@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,8 +6,10 @@ public class startgame : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
-    public void Startgame()
+    public void StartThegame()
     {
+        DataPersistenceManager.instance.NewGame();
+        DataPersistenceManager.instance.SaveGame();
         SceneManager.LoadScene("level 1");
     }
     
@@ -14,18 +17,12 @@ public class startgame : MonoBehaviour
     {
         SceneManager.LoadScene("Main menu");
     }
-    
-    
-    
-    
-    void Start()
+    public void ContinueGame()
     {
-        
+        DataPersistenceManager.instance.LoadGame();
+        SceneManager.LoadScene("level 1");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }
