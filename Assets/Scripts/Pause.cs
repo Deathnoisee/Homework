@@ -11,6 +11,7 @@ public class PauseManager : MonoBehaviour
     public void mainMenu () 
     {
         SceneManager.LoadScene("Main menu");
+        DataPersistenceManager.instance.SaveGame();
         Time.timeScale = 1.0f;
     }
     public void Resume ()
@@ -21,6 +22,7 @@ public class PauseManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+        DataPersistenceManager.instance.SaveGame();
         Time.timeScale = 1.0f;
     }
 
